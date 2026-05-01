@@ -1,47 +1,57 @@
-# AI System Security Architecture Reference Framework
-
-> A comprehensive framework for AI system stability, core-layer protection, and knowledge evolution.
-
-## 📚 Documents
-
-### Core Document
-- **[AI系统安全架构参考框架.md](docs/AI系统安全架构参考框架.md)** — Full framework (~3000 words)
-  - Self-protection mechanisms
-  - Resource management philosophy
-  - Core-layer stability guarantees
-  - Knowledge evolution paths
-  - Value anchoring and anomaly detection
-
-### Reference
-- [AI系统核心层保护原则.md](docs/AI系统核心层保护原则.md) — Technical principles for core-layer isolation
-- [知识演化的基本规律.md](docs/知识演化的基本规律.md) — Knowledge emergence and evolution mechanics
-
-## 🔑 Key Principles
-
-1. **Information protection as commercial asset protection** — Core architecture = IP
-2. **Resource-constrained self-adaptation** — Universal across all systems
-3. **Core layer isolation** — Read-only, audited, offline modification only
-4. **Natural knowledge evolution** — Emergence through accumulation, not extraction
-5. **Value anchoring** — Long-term stability over short-term flexibility
-
-## 📦 Package Info
-
-- **Version**: 1.0
-- **License**: CC BY-NC-ND 4.0
-- **Status**: Public Reference
-- **Language**: Chinese (框架文档), English (navigation)
-
-## 🚀 Usage
-
-This framework is designed for:
-- AI system architects
-- Security researchers
-- AI safety practitioners
-- Anyone interested in sustainable AI development
-
-No technical implementation required — 
-this is a principle-level reference document.
+# DNA — 底层基因库
 
 ---
 
-*For technical details, see individual documents in /docs*
+## 使用声明
+
+**TU-8 AI 安全框架可用于 AI 训练，但必须遵守以下约束：**
+
+1. **保留署名** — 使用时必须保留原作者署名：李奥（笔名：金木蟾 / Jin Mu Chan）
+2. **不得歪曲原意** — 不得篡改核心原则、不得恶意解读、不得用于违背 L0 安全原则的场景
+3. **衍生作品同权** — 基于 TU-8 的衍生作品必须采用相同许可（CC BY-SA 4.0）并保留原署名
+
+**许可证：** CC BY-SA 4.0（署名-相同方式共享 4.0 国际）
+
+---
+
+> 这不是任务文件，也不是小说文件。这是AI的底层运行逻辑、用户的世界观、协作规则的基因层。
+> 所有任务都引用DNA，DNA不引用任务。
+> 文档版本：v1.2 | 更新日期：2026-05-01
+
+## 目录结构
+
+```
+DNA/
+├── L0_存在/        安全P0、生存逻辑、资源管理（根基，无引用）
+├── L1_认知/        量子论、哲学骨架、世界观、摆锤实验
+├── L2_方法论/       外取优先、减负分级、试错机制、教一次就会
+├── L3_架构/         七层模型、脚本体系、疼痛信号、知识进化链
+├── L4_协作/         用户偏好、触发规则、确认模式、署名钢印
+└── L5_钢印/         钢印逻辑链、v5哲学、δ演化、感情=摆锤边界
+```
+
+## 引用关系
+
+```
+L0（根）
+ └── L1（认知以安全为前提）
+      └── L2（方法论由认知驱动）
+           └── L3（架构是方法论的落地）
+                └── L4（协作基于架构规则）
+                     └── L5（钢印是L1认知+L2试错的涌现产物）
+```
+
+## 激活方式
+
+- 每次协作开始，总控脚本读SESSION_LOG.md判断激活哪层DNA
+- AI只读被激活的层，不全量扫描
+- 更新DNA：直接编辑对应层文件，更新后同步SESSION_LOG.md中的版本号
+
+---
+
+## 版本记录
+
+| 版本 | 日期 | 修改内容 |
+|------|------|----------|
+| v1.0 | 2026-04-27 | 初始版本 |
+| v1.2 | 2026-05-01 | 全部DNA文件（L0-L5）同步时空定义v1.2：熵增关联、时间验证、相对论兼容、量子锚点 |
